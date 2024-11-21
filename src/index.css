@@ -1,0 +1,45 @@
+.products:hover {
+    box-shadow: #b1a2a2;
+    border: 1px solid #2ab81f;
+    transition: 1s all;
+} 
+
+.gold {
+    color: #ffc908;
+}
+
+.products .btn {
+    opacity: 0;
+    transition: 0.5s ,opacity 0.5s;
+    transform: translateY(100%);
+    
+}
+.products:hover .btn {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.textcategory{
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+}
+.f1 h4 {
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.f1 p {
+    padding-bottom: 10px;
+    width:250px;
+    font-weight: 300;
+}
+.footer {
+    padding-top: 250px;
+}
+.imageerror {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
